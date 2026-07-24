@@ -189,8 +189,7 @@ jobs:
           cp -r core/pkg/pocket/* dist/
           cp pocketvgm.rev dist/Cores/M4chanic.PocketVGM/
           cp boot.bin dist/Assets/pocketvgm/common/
-          cp scripts/m4pocket_update.py dist/
-          install -m 755 scripts/m4pocket_update.py dist/m4pocket-update
+                    install -m 755 scripts/pocketvgm_update.py dist/pocketvgm
           cd dist && zip -r ../m4pocket-core.zip . -x '*.gitkeep'
 
       - uses: actions/upload-artifact@v4

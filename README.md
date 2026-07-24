@@ -50,10 +50,10 @@ Upstream sources and commits of the vendored RTL are listed in
    location) and open it through the core's Load menus. A `Demo/` folder
    with freely licensed music in all supported formats is included there.
 
-For updates there is the `m4pocket-update` script (Python 3, included in the
-release zip): run it by double-clicking on macOS or with
-`python3 m4pocket-update` — it finds the SD card, downloads the latest release
-and updates the core files.
+For updates there is the `pocketvgm` updater script (Python 3, included in
+the release zip): run it by double-clicking on macOS or with
+`python3 pocketvgm` — it finds the SD card, downloads the latest release and
+updates the core files.
 
 ## Controls
 
