@@ -3,7 +3,7 @@
 """PocketVGM updater, pupdate-style. Lives in the ROOT of the SD card as a
 file named `pocketvgm` (no extension) — on macOS double-clicking opens it in
 Terminal; or run manually: python3 pocketvgm. Downloads the latest release of
-M4chanic/pocket_vgm and unpacks it over the card (Cores/, Assets/,
+M4chanic/pocketvgm and unpacks it over the card (Cores/, Assets/,
 Platforms/). Your music in Assets/pocketvgm/common is kept (release files are
 overwritten, everything else is left alone).
 
@@ -25,7 +25,7 @@ import urllib.error
 import urllib.request
 import zipfile
 
-REPO = "M4chanic/pocket_vgm"
+REPO = "M4chanic/pocketvgm"
 API = "https://api.github.com/repos/" + REPO
 ROOT = os.path.dirname(os.path.abspath(__file__))
 TOKEN_FILES = (os.path.join(ROOT, "pocketvgm_token.txt"),

@@ -8,7 +8,7 @@
       "shortname": "PocketVGM",
       "description": "Chiptune jukebox: VGM / NSF / GBS / SID / MIDI playback on simulated sound chips (YM2151, YM2612, SN76489, AY/5B, NES APU, GB APU, SID, SegaPCM, MSM6258, OPL)",
       "author": "M4chanic",
-      "url": "https://github.com/M4chanic/pocket_vgm",
+      "url": "https://github.com/M4chanic/pocketvgm",
       "version": "0.1.0",
       "date_release": "2026-07-24"
     },

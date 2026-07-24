@@ -5,7 +5,7 @@ original sound chips (Cyclone V 5CEBA4F23C8). The control platform is the
 RISC-V SoC [agg23/openfpga-litex](https://github.com/agg23/openfpga-litex);
 the player and UI are written in Rust.
 
-Prebuilt releases: [Releases](https://github.com/M4chanic/pocket_vgm/releases).
+Prebuilt releases: [Releases](https://github.com/M4chanic/pocketvgm/releases).
 
 ## Formats
 
@@ -43,7 +43,7 @@ Upstream sources and commits of the vendored RTL are listed in
 
 ## Installation
 
-1. Download the zip from [Releases](https://github.com/M4chanic/pocket_vgm/releases)
+1. Download the zip from [Releases](https://github.com/M4chanic/pocketvgm/releases)
    and unpack it into the root of the SD card (the `Cores/`, `Platforms/` etc.
    folders merge with the existing ones).
 2. Put music into `Assets/pocketvgm/common/` on the card (recommended
