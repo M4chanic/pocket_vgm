@@ -118,6 +118,6 @@ are listed in [`rtl/vendor/VENDOR.md`](rtl/vendor/VENDOR.md)):
 
 ## License
 
-Own code — GPL-3.0 (dictated by the vendored jt51/jt12/NES/SID RTL).
+Own code — [GPL-3.0](LICENSE) (dictated by the vendored jt51/jt12/NES/SID RTL).
 Third-party module licenses are in their directories and in
 `rtl/vendor/VENDOR.md`.
