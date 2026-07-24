@@ -1,0 +1,12 @@
+renders/
+sim/vgmplay/obj_dir/
+sim/vgmplay/vgmplay
+vgmrips/
+*.wav
+.claude/
+sim/*/obj_dir/
+sim/chipbox_tb/chipbox_tb
+sim/sid_tb/sid_tb
+Test/
+CLAUDE.md
+screenshots/

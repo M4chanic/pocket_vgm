@@ -1,0 +1,36 @@
+{
+  "core": {
+    "magic": "APF_VER_1",
+    "metadata": {
+      "platform_ids": [
+        "pocketvgm"
+      ],
+      "shortname": "PocketVGM",
+      "description": "Chiptune jukebox: VGM / NSF / GBS / SID / MIDI playback on simulated sound chips (YM2151, YM2612, SN76489, AY/5B, NES APU, GB APU, SID, SegaPCM, MSM6258, OPL)",
+      "author": "M4chanic",
+      "url": "https://github.com/M4chanic/pocket_vgm",
+      "version": "0.1.0",
+      "date_release": "2026-07-24"
+    },
+    "framework": {
+      "target_product": "Analogue Pocket",
+      "version_required": "1.1",
+      "sleep_supported": false,
+      "dock": {
+        "supported": true,
+        "analog_output": false
+      },
+      "hardware": {
+        "link_port": false,
+        "cartridge_adapter": -1
+      }
+    },
+    "cores": [
+      {
+        "name": "default",
+        "id": 0,
+        "filename": "pocketvgm.rev"
+      }
+    ]
+  }
+}

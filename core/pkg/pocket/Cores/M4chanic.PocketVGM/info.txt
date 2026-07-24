@@ -1,0 +1,3 @@
+PocketVGM by M4chanic
+Chiptune jukebox for Analogue Pocket
+https://github.com/M4chanic/pocket_vgm

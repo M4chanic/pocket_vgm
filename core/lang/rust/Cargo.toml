@@ -1,0 +1,13 @@
+[workspace]
+resolver = "2"
+members = [
+    "examples/player",
+    "examples/interact",
+    "examples/minibreak",
+    "examples/minimal",
+    "examples/rough_fps",
+    "examples/rtc_id",
+    "examples/vblank",
+    "crates/litex-openfpga",
+    "crates/litex-pac"
+]

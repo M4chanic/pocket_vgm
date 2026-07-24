@@ -1,0 +1,12 @@
+[package]
+name = "vgm-core"
+version = "0.1.0"
+edition = "2021"
+license = "GPL-3.0-or-later"
+description = "no_std парсер и секвенсор VGM для m4pocket"
+
+[dependencies]
+miniz_oxide = { version = "0.8", default-features = false, features = ["with-alloc"] }
+
+[features]
+default = []
