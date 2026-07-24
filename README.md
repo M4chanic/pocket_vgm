@@ -19,7 +19,8 @@ Three Load menu entries, grouped by platform:
 
 VGM/VGZ appear in both console menus — packs for any platform may come in
 these formats. Multi-song files (NSF/GBS/SID) switch subsongs with the D-pad.
-A playlist (`.m3u`, or neighbouring files in the folder) opens with Select.
+
+Track switching and playlists (`.m3u` / folder playback) are work in progress.
 
 \* MOD playback is not implemented yet.
 
@@ -45,9 +46,9 @@ Upstream sources and commits of the vendored RTL are listed in
 1. Download the zip from [Releases](https://github.com/M4chanic/pocket_vgm/releases)
    and unpack it into the root of the SD card (the `Cores/`, `Platforms/` etc.
    folders merge with the existing ones).
-2. Put music anywhere on the card (e.g. `/Music/`) and open it through the
-   core's Load menus. A `Demo/` folder with freely licensed music in all
-   supported formats is included.
+2. Put music into `Assets/pocketvgm/common/` on the card (recommended
+   location) and open it through the core's Load menus. A `Demo/` folder
+   with freely licensed music in all supported formats is included there.
 
 For updates there is the `m4pocket-update` script (Python 3, included in the
 release zip): run it by double-clicking on macOS or with
@@ -60,6 +61,8 @@ and updates the core files.
 - **A** — pause, **B** — stop
 - **R (hold)** — fast forward ×8
 - **Select** — playlist browser
+
+Track switching and the playlist browser are still being stabilised.
 
 ## Repository layout
 
